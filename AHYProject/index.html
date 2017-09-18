@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>AHY</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+ 
+<body>
+ 
+    <nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+      <a class="navbar-brand" href="#"><b>LOGO</b></a>
+  </div>
+    
+  <div class="navbar-collapse collapse">
+    
+    <ul class="nav navbar-nav navbar-center">
+         <li><a href="#"><b>PARTNER</b></a></li>  
+               
+         <li class="active"> <a href="index.html"><b>WORKERS</b></a></li>
+          <li><a href="#"><b>ABOUT/HELP</b></a></li>   
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+         <li><a href="#"><img class="img-responsive" src="images/Facebook-logo.jpg" width="30" height="30" alt="fblink"/></a></li>
+        <li><a href="#"><img class="img-responsive" src="images/Insta-Logo.jpg" width="30" height="30" alt="instalink"/></a></li>
+        <li><a href="#"><img class="img-responsive" src="images/Twitter-Logo.jpg" width="30" height="30" alt="Twitlink"/></a></li>
+
+    </ul>
+  </div>
+</nav>
+    
+    
+<!-- Jumbotron -->
+<div class="jumbotron banner">
+  <img class="img-responsive" src="images/Banner.jpg" height="670" width="1347" alt="Banner"/>
+
+    
+    
+<!-- Panel-->   
+    <div class="container-fluid test3">
+    <div class="row">  
+    
+    <div class="col-md-12">
+    <div class="panel panel-default">
+    <div class="panel-body">
+      <center><h2>Sign Up To Work</h2></center>
+    <br>
+
+<!-- Normal Form-->
+      <form name="frm">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-5">
+              <input type="text" class="form-control" id="input-first" placeholder="First Name" name="fname">
+            </div>
+       
+            <div class="col-md-5">
+               <input type="text" class="form-control" id="input-last" placeholder="Last Name" name="lname">
+            </div>
+            <div class="col-md-2"></div>
+                   
+          </div>
+        </div>
+    
+        <div class="form-group">
+          <input type="email" class="form-control email" id="InputEmail"  placeholder="Email" name="mail">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" id="input-tel" placeholder="Mobile No" name="phno">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="InputPassword" placeholder="Create Password" name="paswrd">
+        </div>
+  
+        <div class="form-group">
+          <input type="text" class="form-control" id="input-city" placeholder="City" name="city">
+        </div>
+  
+        <center><button type="button" class="btn btn-default" id="input-but" onClick="return validation()" style="background-color:orange">Sign Up</button></center>
+
+      </form>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Main Heading -->
+<div class="container-fluid main-head">
+  <div class="row">
+      <div class="col-md-12">
+          <h2><b><center>You are your own BOSS</center></b></h2>
+            <h4> <center>Deliver, Earn on your schedule</center></h4> 
+        </div>
+  </div>
+</div>  
+ 
+<!--Heading 1 -->  
+<div class="container head1">
+  <div class="row">
+      <div class="col-md-8">
+        <div class="clearfix">
+          <img class="img-responsive head1-img" src="images/Heading1-Logo.jpg" alt="heading" width="180" height="180"/>
+            <div class="head-capt"> 1. <b>Heading One</b> </div>
+            <p class="head1-descp">sed posuere consecteturest at lobortis. sed diameget risus varu.Mauris nec commodo augue. Nullam vitae diam felis. Maecenas felis tellus, sollicitudin vel tortor id, fermentum posuere leo.sed diameget risus varu. sed diameget risus varu..</p> 
+        </div>
+<!--Heading 2-->
+        <div class="clearfix separate">     
+
+            <img class="img-responsive head2-img" src="images/Heading2-Logo.jpg" alt="heading" height="180" width="180"/> 
+            <div class="head2-capt"> 2. <b>Heading Two </b> </div>
+            <p class="head2-descp">sed posuere consecteturest at lobortis. sed diameget risus varu.Mauris nec commodo augue. Nullam vitae diam felis. Maecenas felis tellus, sollicitudin vel tortor id, fermentum posuere leo.sed diameget risus varu. sed diameget risus varu.</p>  
+      </div>
+        </div>
+        
+<!--Heading 3-->
+        <!--div class="clearfix test"-->
+        <div class="col-md-4" >
+            
+            <div class="clearfix res">
+            <center><img class="img-responsive" src="images/Heading3-Logo.jpg" alt="heading" height="180" width="180"/> </center>
+             <div class="head3-capt"> 3. <b>Heading Three </b> </div>
+            <p class="head3-descp">sed posuere consecteturest at lobortis. sed diameget risus varu.Mauris nec commodo augue. Nullam vitae diam felis. Maecenas felis tellus, sollicitudin vel tortor id, fermentum posuere leo.sed diameget risus varu. sed diameget risus varu.</p>  
+        <!--/div-->
+            </div>
+       </div>
+  </div>
+</div>
+
+<!-- Space between content and footer-->
+<div class="push-content"></div>
+<!--Footer-->
+
+
+<footer class="web-footer">
+  <div class="footer-band"></div>
+</footer>
+<!-- End of Web Page-->
+
+<!-- Validations-->
+<script>
+  function validation()
+  {
+     var x = document.forms["frm"]["mail"].value;
+     var pass=document.forms["frm"]["paswrd"].value;
+     var atpos = x.indexOf("@");
+     var dotpos = x.lastIndexOf(".");
+     var first=document.forms["frm"]["fname"].value;
+     var last=document.forms["frm"]["lname"].value;
+     var no=document.forms["frm"]["phno"].value;
+     var citi=document.forms["frm"]["city"].value;
+     
+   
+       
+    if (first==null|| first==""|| last==null|| last==""|| no==null|| no==""||citi==null|| citi=="")
+    {
+      alert("All fields are mandatory");
+      return false;
+    }
+  
+    else  if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    } 
+      
+    else if(isNaN(frm.phno.value))
+    {
+      alert("Not a valid Mobile no");
+      frm.phone.focus();
+      var div=document.getElementById(input-tel).closest("div");
+      div.addClass("has-error");
+      return false;
+    }
+    
+    else if(pass.length<8)
+    {
+      alert("Password length should be minimum 8 characters");
+      return false;
+    }
+    else
+    {
+      alert("Register Successful");
+      
+      return true;
+    }
+    
+  }
+    
+  
+  
+</script>
+
+<!--Links to all Scripts -->
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
